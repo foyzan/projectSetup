@@ -1,0 +1,39 @@
+{
+  "name": "batch-3-apollo-flix-conceptual-session",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Apollo-Level2-Web-Dev/batch-3-apollo-flix-conceptual-session#readme",
+  "bugs": {
+    "url": "https://github.com/Apollo-Level2-Web-Dev/batch-3-apollo-flix-conceptual-session/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Apollo-Level2-Web-Dev/batch-3-apollo-flix-conceptual-session.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "./dist/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "dev": "concurrently \"npx tsc -w\" \"nodemon\"",
+    "lint": "npx eslint ."
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.38.0",
+    "@types/express": "^5.0.5",
+    "concurrently": "^9.2.1",
+    "eslint": "^9.38.0",
+    "nodemon": "^3.1.10",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongoose": "^8.19.2",
+    "zod": "^4.1.12"
+  }
+}
